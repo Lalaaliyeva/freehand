@@ -1,0 +1,525 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    margin-top:2rem;
+    
+    
+}
+
+ul li a{
+
+     margin-top: -2rem;
+    color: black;
+    font-weight: 500;
+    padding-left: 2rem !important;
+ 
+ }
+
+
+#button1,#button2{
+    margin-top: -2.2rem;
+   
+   float: left;
+}
+#button1{
+    margin-left: 52rem;
+    border-radius: .6rem !important;
+    border-color: rgb(2, 2, 88) !important;
+    border-width: 2px !important;
+    padding-right:1.8rem !important;
+        padding-left:1.8rem !important;
+        color: rgb(2, 2, 88) !important;
+        font-weight: 400 !important;
+        font-size: 16px !important;
+
+}
+
+ #button2{
+     margin-top: -2.4rem;
+     margin-left: 60.5rem;
+     border-radius: .6rem !important;
+     background-color: rgb(2, 2, 88) !important;
+     border-color: rgb(2, 2, 88) !important;
+     border-width: 2px !important;
+     padding-right:1.6rem !important;
+     padding-left:1.6rem !important;
+      font-weight: 400 !important;
+      font-size: 16px !important;
+
+ }
+
+ h2{
+     display: inline-block;
+     white-space: pre;
+     font-size: 40px !important;
+     line-height: 50px !important;
+     color: #16133e !important;
+     font-weight: 600 !important;
+     margin-top: 2rem !important;
+     
+ }
+ p{
+     white-space: pre;
+     font-size: 17px !important;
+     line-height: 30px !important;
+     color: #183b56 !important;
+     font-weight: 400 !important;
+     margin-top: -1.8rem !important;
+ }
+
+ #image1{
+     width: 480px !important;
+     height: 312px !important;
+     border-radius: 8px;
+    position: absolute;
+    right: 10.5rem;
+    top: 8.5rem;
+    z-index: -1;
+ }
+
+ #button3{
+     font-size: 10px !important;
+     /* line-height: 16px; */
+     color: #ffffff;
+     font-weight: 500;
+     padding-left: 1.4rem;
+     padding-right: 1.4rem;
+     margin-right: .5rem;
+          margin-top: -1.8rem !important;
+
+     
+ }
+
+ #button4{
+     font-size: 10px !important;
+          margin-top: -1.8rem !important;
+
+     font-weight: 500;
+     padding-left: 1.4rem;
+     padding-right: 1.4rem;
+    
+ }
+
+ #button5{
+      position: absolute;
+      right: 39.8rem;
+      top: 16.5rem;
+    
+     z-index: 1;
+         background-color: rgb(2, 2, 88) !important;
+     border-color: rgb(2, 2, 88) !important;
+
+ }
+
+ #button6{
+     position: absolute;
+right: 9.8rem;
+top: 16.5rem;
+     background-color: rgb(2, 2, 88) !important;
+     border-color: rgb(2, 2, 88) !important;
+
+ }
+
+
+  #servic{
+     margin-top: 6rem !important;
+     font-size: 13px !important;
+     color: #87a1b6;
+     font-weight: 400 !important;
+     text-transform: uppercase;
+ }
+ h3{
+     margin-top: -1rem !important;
+ }
+ #servic1{
+     font-size: 13px !important;
+     color: #87a1b6;
+     font-weight: 400 !important;
+     
+ } 
+
+ #number{
+     border: 1px solid rgba(128, 128, 128, 0.171);
+     border-radius: .5rem;
+     display: inline-block; 
+     width: 325px;
+     height: 260px;
+     margin-right: 2.5rem;
+ } 
+
+ #paragraf{
+     display: inline-block;
+     width: 325px;
+     text-align: left;
+     font-size: 14px !important;
+          font-weight: 500 !important;
+
+ }
+
+ #img{
+     margin-top: 2rem;
+     margin-left: 1.3rem;
+     margin-bottom: 1.3rem;
+ }
+
+ h5{
+     margin-left: 1.3rem;
+ }
+
+ #learn{
+     margin-left: 1.3rem;
+          font-size: 14px !important;
+
+     font-weight: 500 !important;
+ }
+
+ #feat{
+     width: 500px;
+     height: 400px;
+     border-radius: 8px;
+ }
+
+ #million{
+     
+     position: absolute;
+     top:92rem;
+     left: 12rem;
+     white-space: pre;
+     color: white;
+     line-height: 30px;
+     font-weight: 400;
+ }
+
+ #expand{
+     position: absolute;
+     top: 92rem;
+     left: 44rem;
+      white-space: pre;
+      color: white;
+      line-height: 30px;
+      font-weight: 400;
+ }
+
+ #plan{
+     position: relative;
+     top: 12rem;
+ }
+
+ #plan1{
+     position: relative;
+     top:12.2rem;
+     font-size: 13px !important;
+     color: #87a1b6;
+     font-weight: 400 !important;
+ }
+
+ #pricplan{
+     position: relative;
+     top:13rem;
+     border:1px solid rgba(128, 128, 128, 0.089);
+     border-top:3px solid #0593fa;
+      width: 300px;
+     height: 325px;
+ }
+
+ #start{
+     display: inline-block;
+     margin-top: 2rem;
+     margin-left: 5.6rem;
+     font-weight: 500;
+ }
+
+ #fre{
+     margin-left: 6rem;
+     margin-top:1rem;
+     color: #0593fa;
+     font-weight: 700;
+     font-size: 33px;
+ }
+
+ #per{
+     display: inline-block;
+     position: absolute;
+     margin-top: -0.5rem;
+    margin-left: 6.3rem;
+    font-size: 12px;
+    font-style: italic;
+ }
+
+ #planparag,
+ #planparag1,
+ #planparag2 {
+     position: relative;
+top:4rem;
+white-space: pre;
+text-align: center;
+font-size:13px !important;
+ }
+
+ #button7, #button8{
+     position: relative;
+     top:5.5rem;
+     left:4rem;
+     border-radius: 30px !important;
+     border-color: #16133e !important;
+     font-size: 13px !important;
+     color: #16133e !important;
+     font-weight: 400;
+     padding-left: 2rem;
+     padding-right: 2rem;
+ }
+
+ #pricplan1{
+position: relative;
+top:-7.3rem;
+left:26rem;
+border:1px solid rgba(128, 128, 128, 0.089);
+border-top:3px solid  #56cbae;
+
+width: 300px;
+height: 325px;
+ }
+
+ #fre1, #fre2{
+     margin-left: 5.6rem;
+     margin-top:1rem;
+     color: #56cbae;
+     font-weight: 700;
+     font-size: 33px;
+ }
+ #per1, #per2{
+      display: inline-block;
+      position: absolute;
+      margin-top: -0.5rem;
+      margin-left: 6.7rem;
+      font-size: 12px;
+      font-style: italic;
+ }
+ #pricplan2{
+     position: relative;
+     top:-27.6rem;
+     left:52rem;
+     border:1px solid rgba(128, 128, 128, 0.089);
+     border-top:3px solid #fa6770;
+
+     width: 300px;
+     height: 325px;
+ }
+
+ #fre2{
+     color:#fa6770;
+ }
+
+ #button9{
+     position: relative;
+     top:5.5rem;
+     left:4rem;
+    background-color: rgb(2, 2, 88) !important;
+    border-color: rgb(2, 2, 88) !important;
+     padding-left: 2rem;
+     padding-right: 2rem;
+     border-radius: 30px;
+      font-size: 13px !important;
+      font-weight: 400;
+ }
+
+
+ #adadiv{
+     margin-top:-15rem;
+     margin-left: -3rem;
+     background-image: url(./img/Rectangle\ Copy\ 13.png); 
+     width: 1152px;
+     height: 387px;
+   border-radius: 15px!important;
+   
+}
+
+ #adah3{
+     color:white;
+     font-size: 40px;
+     line-height: 52px;
+     font-weight: 400;
+     position: relative;
+     top: 8rem;
+     text-align: center;
+ }
+
+ #adap{
+     color:white !important;
+     font-size: 18px;
+     line-height: 16px;
+     font-weight: 400;
+     position: relative;
+     top:11rem;
+     text-align: center;
+ }
+
+ #button10{
+      position: relative;
+      top:13rem;
+      left:26rem;
+      background-color: white !important;
+      border-color: white !important;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      border-radius: 30px;
+      font-size: 13px !important;
+      font-weight: 400;
+ }
+
+ #button11{
+      position: relative;
+      top:13rem;
+      left:27rem;
+      background-color: rgba(255, 255, 255, 0) !important;
+      border-color: white !important;
+      padding-left: 2.5rem;
+      padding-right: 2.5rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      border-radius: 30px;
+      font-size: 13px !important;
+      font-weight: 400;
+ }
+ 
+ #footer1{
+     width: auto;
+     height: 500px;
+     
+      background-image: url(./img/Rectangle\ \(3\).png); 
+margin-top: 10rem;
+
+ }
+
+ #footdiv{
+     width: 250px;
+     position: relative;
+     top:5rem;
+     left:6rem;
+
+ }
+
+ #footimg{
+     background-color: transparent !important;
+ }
+
+ #footp{
+     white-space: pre;
+     position: relative;
+     top:2.4rem;
+     color:white !important;
+     font-weight: 400;
+     font-size: 14px !important;
+ }
+
+
+ #footimg2{
+     position: relative;
+     top:5rem;
+     display: inline-block;
+     width: 30px;
+     height: 30px;
+     background-color: white;
+     text-align: center;
+     border-radius: 6px;
+ }
+
+ #footdiv1{
+     width: 150px;
+      position: relative;
+      top:-2.1rem;
+      left:33rem;
+ }
+
+ #footp1,
+ #footp2,
+ #footp3 {
+     color: white !important;
+     font-weight: 500;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     font-size:16px !important;
+ }
+
+ #footul{
+     text-decoration: none;
+     list-style: none;
+    
+ }
+
+#footli{
+    position: relative;
+    left:-2rem;
+    font-size: 14px !important;
+    white-space: pre;
+    padding-bottom:.5rem ;
+   
+}
+
+#foota{
+    color: white;
+    font-weight: 300;
+}
+
+#footdiv2{
+    width: 150px;
+    position: relative;
+    top:-13.3rem;
+    left:47rem;
+}
+
+#footdiv3{
+    width: 250px;
+    position: relative;
+    top:-22.7rem;
+    left:60rem;
+}
+
+#footmail{
+    color: white;
+    font-weight: 300;
+    font-size: 20px !important;
+    letter-spacing: 2px;
+}
+
+#footli1{
+    padding-top:1rem ;
+}
+
+#copy{
+    display: inline-block;
+    position: relative;
+    top:-12.5rem;
+    left:32rem;
+    color:white !important;
+    font-size: 14px !important;
+    font-weight: 300;
+}
+
+#footfre{
+    font-size:35px !important;
+    color:white !important;
+    position: relative;
+    left:3rem;
+    top:-.3rem;
+}
+
+#image2{
+    border-radius: 6px;
+    padding-right: .6rem;
+}
+
+#trust{
+    font-size: 15px !important;
+    color: white !important;
+    font-weight: 400;
+    position: relative;
+    left:9.3rem;
+    top:-.3rem;
+}
